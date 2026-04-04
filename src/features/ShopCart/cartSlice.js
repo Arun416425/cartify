@@ -24,7 +24,7 @@ const cartSlice = createSlice({
             }
             state.tempItems = [...state.items]
             state.totalPrice = calTotal(state.items)
-            // toast.success("Product added to cart")
+            toast.success("Product added to cart")
         },
         updateTempquantity(state, action) {
             const { id, quantity } = action.payload;
