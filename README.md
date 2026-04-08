@@ -23,10 +23,10 @@
 <li>Optimized Workflow: Efficient handling of state updates to ensure smooth performance.</li>
 
 <h2>🏗️ Technical Architecture</h2>
-Store Configuration: Centralized store setup using Redux Toolkit’s configureStore.
+<li>Store Configuration: Centralized store setup using Redux Toolkit’s configureStore.</li>
 
-Slices: Data organized into feature-based slices for maintainability.
+<li>Slices: Data organized into feature-based slices for maintainability.</li>
 
-Middleware: Custom logic to trigger Local Storage updates whenever the state changes.
+<li>Middleware: Custom logic to trigger Local Storage updates whenever the state changes.</li>
 
-Responsive Breakpoints: Strategic use of media queries to adapt the UI dynamically.
+<li>Responsive Breakpoints: Strategic use of media queries to adapt the UI dynamically.</li>
