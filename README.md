@@ -1,7 +1,8 @@
-<h1>🚀 Redux State-Persistent App</h1>
+<h1>🚀 Redux E-Commerce App</h1>
 
 <h2>🛠️ Tech Stack</h2>
 <li>React.js: Used for building a modular, component-based user interface.</li>
+<li>Axios: Utilized to fetch data from external APIs and handle asynchronous logic.</li>
 
 <li>Redux Toolkit: Implemented for centralized, predictable state management.</li>
 
