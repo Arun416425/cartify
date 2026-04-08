@@ -1,16 +1,32 @@
-# React + Vite
+<h1>🚀 Redux State-Persistent App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>🛠️ Tech Stack</h2>
+<li>React.js: Used for building a modular, component-based user interface.</li>
 
-Currently, two official plugins are available:
+Redux Toolkit: Implemented for centralized, predictable state management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Custom CSS: Handcrafted styles utilizing Flexbox and Grid for a unique design.
 
-## React Compiler
+Local Storage API: Integrated to ensure data persistence across browser sessions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vercel: Deployed for fast, reliable hosting and CI/CD integration.
 
-## Expanding the ESLint configuration
+<h2>✨ Key Features</h2>
+Global State Management: Utilizes Redux to eliminate prop drilling and maintain a single source of truth.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Data Persistence: Automatically syncs the Redux state with browser Local Storage for seamless user experiences.
+
+Custom Styling: Fully custom CSS implementation to demonstrate mastery over layout and design without external frameworks.
+
+Responsive Design: Mobile-first architecture ensuring full functionality across mobile, tablet, and desktop devices.
+
+Optimized Workflow: Efficient handling of state updates to ensure smooth performance.
+
+<h2>🏗️ Technical Architecture</h2>
+Store Configuration: Centralized store setup using Redux Toolkit’s configureStore.
+
+Slices: Data organized into feature-based slices for maintainability.
+
+Middleware: Custom logic to trigger Local Storage updates whenever the state changes.
+
+Responsive Breakpoints: Strategic use of media queries to adapt the UI dynamically.
